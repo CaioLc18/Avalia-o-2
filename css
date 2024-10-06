@@ -1,0 +1,38 @@
+/* Estilos globais, baseados na identidade visual da UNISUAM */
+body {
+    font-family: 'Montserrat', sans-serif; /* Exemplo de fonte */
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+/* Estilos para as seções */
+.section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para os campos, botões, etc. */
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color:   
+ #007bff; /* Azul da UNISUAM */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilos responsivos (opcional) */
+@media (max-width: 768px) {
+    /* Ajustes para telas menores */
+}
